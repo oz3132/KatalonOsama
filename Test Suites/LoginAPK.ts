@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>LoginAPK</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>90773eec-c1e5-4aa1-8ebf-0ecf76d3a38f</testSuiteGuid>
+   <testCaseLink>
+      <guid>c6229d89-37fc-4f8e-8c9f-9381ff58745b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DummyLoginPass</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e0cf702b-b558-4e97-80b6-9e8beef522ed</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/LoginApk</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>e0cf702b-b558-4e97-80b6-9e8beef522ed</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>dc5d505c-223d-4d23-b7d8-407272c9cfdd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e0cf702b-b558-4e97-80b6-9e8beef522ed</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>d8485673-69f5-4235-a50c-3a5ec7829600</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6ea0fe87-d8dd-4b52-8c4f-023160ba8c3a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DummyLoginFail</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b99ba95d-53dd-4ef9-9617-55ab869ad5b5</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/LoginApk</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>b99ba95d-53dd-4ef9-9617-55ab869ad5b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>34e17c95-37d6-47d0-8c39-6edd54c9cd20</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b99ba95d-53dd-4ef9-9617-55ab869ad5b5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>47236999-11d6-430c-8311-5b01025f7fb4</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
