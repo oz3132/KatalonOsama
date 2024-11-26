@@ -25,7 +25,7 @@ Mobile.setText(findTestObject('Object Repository/DummyLogin/android.widget.EditT
 
 Mobile.tap(findTestObject('TestRepDummyLogin/android.widget.Button - Submit'), 0)
 
-Mobile.verifyElementText(findTestObject('TestRepDummyLogin/android.widget.TextView - Welcome'), 'Welcome456')
+Mobile.verifyElementText(findTestObject('TestRepDummyLogin/android.widget.TextView - Welcome'), 'Welcome45456')
 
 Mobile.closeApplication()
 
