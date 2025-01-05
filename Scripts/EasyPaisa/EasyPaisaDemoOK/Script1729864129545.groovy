@@ -33,14 +33,14 @@ Mobile.tap(findTestObject('Object Repository/EasyPaisaTest/android.widget.Relati
 
 Mobile.tap(findTestObject('EasyPaisaTest/android.widget.TextView - Enter Receivers Number or select from contacts'), 0)
 
-Mobile.setText(findTestObject('Edit Test Reciever Number/android.widget.EditText - Enter Number or Search Contacts'), '03166204200', 
+Mobile.setText(findTestObject('Edit Test Reciever Number/android.widget.EditText - Enter Number or Search Contacts'), '03135393625', 
     0)
 
 Mobile.tap(findTestObject('Object Repository/EasyPaisaTest/android.widget.ImageView'), 0)
 
 Mobile.tap(findTestObject('Object Repository/EasyPaisaTest/android.view.ViewGroup'), 0)
 
-Mobile.setText(findTestObject('Object Repository/EasyPaisaTest/android.widget.EditText - 0'), '10', 0)
+Mobile.setText(findTestObject('Object Repository/EasyPaisaTest/android.widget.EditText - 0'), '5', 0)
 
 Mobile.tap(findTestObject('Object Repository/EasyPaisaTest/android.widget.TextView - Next'), 0)
 

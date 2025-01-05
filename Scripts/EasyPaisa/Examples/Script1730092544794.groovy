@@ -32,5 +32,7 @@ device_Height = Mobile.getDeviceHeight()
 'Get Device Width and Store in device_Width variable'
 device_Width = Mobile.getDeviceWidth()
 
-Mobile.scrollToText('Tohfa', FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Scroll to test/android.widget.TextView - See All'), 0)
+
+Mobile.scrollToText('Loans', FailureHandling.STOP_ON_FAILURE)
 
